@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="top">
+  <h1>THE PUN POLICE</h1>
+</div>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Recruting</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#about">Submissions</a></li>
+</ul>
+<div class="main">
+  <h2>Remember the rules</h2>
+  <h2>Rankings</h2>
+  <div class="gallery">
+    <a target="_blank" href="titanic.jpg">
+      <img src="titanic.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">I changed my iPod's name to Titanic. It's syncing now</div>
+  </div><div class="gallery">
+  <a target="_blank" href="benz.jpg">
+    <img src="benz.jpg"  width="600" height="400">
+  </a>
+  <div class="desc">I crashed my car into a tree. Now I can see how a mercedes benz!</div>
+</div><div class="gallery">
+  <a target="_blank" href="geo.jpg">
+    <img src="geo.jpg" width="600" height="400">
+  </a>
+  <div class="desc"> Without greometry life is pointless!</div>
+</div>
+<div class="top">
+  <h1>Together we can stop terrible puns!!</h1>
+</div>
+</body>
+</html>

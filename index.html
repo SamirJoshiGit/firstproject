@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="top">
+  <h1>THE PUN POLICE</h1>
+</div>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="rankings.html">Ratings</a></li>
+  <li><a href="examples.html">Examples</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<div class="main">
+  <h1 style="text-align:center;">The Pun Police</h1>
+  <p style="text-align:center; font-size:30px; color: blue;"><i>"RAISING AWARNESS SINCE 2019"</i></p>
+  <p style="text-align:center; font-size:20px; color: orange;">In todays world anything can be turned into a threat. Today the most pressing issue in society is the pressing concern for the abolishment of terrible puns. They have wrecked our communities and brought down nations.</p>
+  <p style="text-align:center; font-size:20px; color: red;">It is URGENT people need to wake up to the realities and dangers of puns.</p>
+  <p style="text-align:center; font-size:20px; color: green;"> We are not the only ones spreding awareness.</p>
+  <center><a href="https://www.reddit.com/r/PunPatrol/" style="background-color: lightgreen; width: 100px; height: 100px;"> Reddit Awareness</a></center>
+  <center><a href="https://www.theodysseyonline.com/35-terrible-puns-to-brighten-your-day" style="background-color: lightgreen; width: 100px; height: 100px;">Watchlist for puns</a></center>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

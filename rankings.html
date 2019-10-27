@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index3.css">
+</head>
+<body>
+<div class="top">
+  <h1>THE PUN POLICE</h1>
+</div>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="rankings.html">Ratings</a></li>
+  <li><a href="examples.html">Examples</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<div class="main">
+    <div class="backpage"><a href="index.html">Home Page</a></div>
+  <h2>Remember the rules</h2>
+  <h2>Rankings</h2>
+  <table>
+    <tr>
+      <th>Pun uses</th>
+      <th>Rating</th>
+    </tr>
+    <tr>
+      <td>A quick, original response to another joke</td>
+      <td>Good</td>
+    </tr>
+    <tr>
+      <td>An underused pun</td>
+      <td>Okay</td>
+    </tr>
+    <tr>
+      <td>Used to make fun of people</td>
+      <td>Bad</td>
+    </tr>
+    <tr>
+      <td>A common overused one</td>
+      <td>Terrible</td>
+    </tr>
+  </table>
+</div>
+<div class="top">
+  <h1>Together we can stop terrible puns!!</h1>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
